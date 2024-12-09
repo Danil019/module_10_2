@@ -18,8 +18,8 @@ class Knight(threading.Thread):
             time.sleep(1)
         print(f'{self.name} одержал победу спустя {day_count} дней(дня)')
 
-first_knight = Knight('Sir Lancelot', 10)
-second_knight = Knight('Sir Galahad', 20)
+first_knight = Knight('Сир Ланцелот', 10)
+second_knight = Knight('Сир Галахад', 20)
 first_knight.start()
 second_knight.start()
 
